@@ -6,17 +6,35 @@ document.addEventListener('DOMContentLoaded', function(){
 	console.log("Hello world :D");
 })
 
-function Pressed(){
+function countingUp(){
 
 	
 	counter = counter + 1;
 	console.log("The value of counter is " + counter);
-	/*
+    
+    
+
+    if(counter<=10){
+	
+    
 	var myContainer = document.getElementById('mycontainer');
 
-	var dynamicparagraph = "<p> Element "+counter+ " added dynamically</p>";
+	var dynamicparagraph = "<p> this is easy! you pressed the button "+counter+ " times right?</p>";
 	myContainer.insertAdjacentHTML('beforeend', dynamicparagraph);
-    */
 
+    }
+
+    else{
+
+        var myContainer = document.getElementById('mycontainer');
+
+        var secondChoice = "<p> let me take off my socks</p>";
+	    myContainer.insertAdjacentHTML('beforeend', secondChoice);
+    }
+
+    
+}
+
+function ouch(){
     alert('that hurt!');
 }
