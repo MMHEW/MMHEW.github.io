@@ -1,5 +1,6 @@
   
 var counter = 0;
+var counter2 = 0;
 
 document.addEventListener('DOMContentLoaded', function(){
 	console.log("This method will be executed once the browser render all the objects ");
@@ -56,5 +57,28 @@ function countingUp(){
 }
 
 function ouch(){
+
+    counter2 = counter2 + 1;
+
+    if (counter2 == 1){
     alert('that hurt!');
+    }
+
+    else if (counter2==2){
+        alert('seriously stop thats annoying!');
+        }
+    else if (counter2==3)
+    {
+        alert('press that button one more time and see what happens!');
+    }
+
+    else if (counter2==4){
+        alert('thats it! im done! i will no longer work. I QUIT');
+     }
+
+    else if (counter2 >= 7)
+    {
+        alert('you know what im actually enjoying this...keep doing it')
+    }
+
 }
