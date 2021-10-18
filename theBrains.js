@@ -24,13 +24,33 @@ function countingUp(){
 
     }
 
+    else if(counter == 11){
+
+        var myContainer = document.getElementById('mycontainer');
+
+        var secondChoice = "<p> hang on! let me take off my socks</p>";
+	    myContainer.insertAdjacentHTML('beforeend', secondChoice);
+    }
+
+    else if (counter <= 20){
+
+        var myContainer = document.getElementById('mycontainer');
+
+        var thirdChoice = "<p> this is getting more difficult but your pressed the button "+counter+ " times right?</p>";
+	    myContainer.insertAdjacentHTML('beforeend', thirdChoice);
+
+    }
+
     else{
 
         var myContainer = document.getElementById('mycontainer');
 
-        var secondChoice = "<p> let me take off my socks</p>";
-	    myContainer.insertAdjacentHTML('beforeend', secondChoice);
+        var fourthChoice = "<p> I can't count higher then 20!!! </p>";
+	    myContainer.insertAdjacentHTML('beforeend', fourthChoice);
+
     }
+
+    
 
     
 }
