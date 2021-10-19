@@ -1,0 +1,68 @@
+body{
+    background : #FFFFFF;
+}
+
+.fontsize18{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.fontsize32{
+    font-size: 32px;
+    font-weight: normal; 
+}
+.square{
+    width:100px;
+    height: 100px;
+    color: black;
+    background:tan;
+}
+.square p{
+    color: red;
+    font-size: 16px;
+    text-shadow: 0px 0px 12px;
+}
+
+.shadow{
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.customFontStyle{
+
+    font-style: italic;
+    text-align: center;
+
+}
+
+.gridOfDivs{
+    margin-top: 20px;
+    background:black;
+}
+
+.gridOfDivs .square{
+    padding-top: 100px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left:10px;
+    margin-right:10px;
+    display: inline-block;
+}
+
+.gridOfButtons{
+    background:black;
+    margin-top: 20px;
+}
+
+.gridOfButtons Button{
+    background:blue;
+    color:black;
+    padding-top: 1px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left:10px;
+    margin-right:10px;
+    box-shadow: 0px 0px 2px black;
+    font-style: italic bold;
+    text-align: center;
+
+}
